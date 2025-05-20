@@ -20,9 +20,9 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { AIModelsOption } from "@/services/Shared";
-import supabase from "@/services/supabase";
+} from "./ui/dropdown-menu";
+import { AIModelsOption } from "../services/Shared";
+import supabase from "../services/supabase";
 import { useUser } from "@clerk/nextjs";
 import { v4 as uuidv4 } from "uuid";
 import { useRouter } from "next/navigation";

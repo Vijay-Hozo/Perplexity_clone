@@ -2,7 +2,7 @@ import { UserButton } from "@clerk/nextjs";
 import React from "react";
 import { Clock, Link2, Share } from "lucide-react";
 import moment from "moment";
-import { Button } from "@/components/ui/button";
+import { Button } from "../../../../../components/ui/button";
 
 const Header = ({ searchInputRecord }) => {
   return (

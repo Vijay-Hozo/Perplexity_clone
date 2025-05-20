@@ -1,12 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-// import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-// import { SidebarProvider,SidebarTrigger } from "@/components/ui/sidebar";
 import { ClerkProvider } from "@clerk/nextjs";
 import Provider from "./provider"
-// import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-import AppSidebar from "@/components/AppSidebar";
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import AppSidebar from "../components/AppSidebar";
+import { SidebarProvider, SidebarTrigger } from "../components/ui/sidebar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

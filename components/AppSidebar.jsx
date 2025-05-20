@@ -9,7 +9,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar";
+} from "../components/ui/sidebar";
 import Image from "next/image";
 import { Compass, GalleryHorizontalEnd, LogIn, Search } from "lucide-react";
 import { usePathname } from "next/navigation";
